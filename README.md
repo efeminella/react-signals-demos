@@ -11,6 +11,5 @@ $ vite
   ➜  Network: http://192.168.1.161:5173/
 
 ```
-
-![Counter Demo](/assets/demo-example.png)
+<img width="579" alt="demo-1" src="/assets/demo-example.png">
 
