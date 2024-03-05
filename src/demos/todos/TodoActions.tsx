@@ -1,21 +1,20 @@
-import {useCallback, useRef, KeyboardEvent} from 'react';
+import {useRef, KeyboardEvent} from 'react';
 import {Button, Input, Stack, Group} from '@mantine/core';
 import {addTodo, reset, clearCompleted} from './todos';
 
 const TodoActions = () => {
   const inputRef = useRef<HTMLInputElement>(null);
 
-  const onAdd = useCallback(() => {
+  const onAdd = function() {
     if (inputRef.current !== null) {
-      const inputValue = inputRef.current.value;
-      addTodo(inputValue);
+      addTodo(inputRef.current.value);
       inputRef.current.value = '';
     }
-  }, []);
+  };
 
-  const onEnter = useCallback((event: KeyboardEvent<HTMLInputElement>) => {
+  const onEnter = function(event: KeyboardEvent<HTMLInputElement>) {
     event.key === 'Enter' && onAdd();
-  }, []);
+  };
 
   return (
     <Stack align='flex-start'>
