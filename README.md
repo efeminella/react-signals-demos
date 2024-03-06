@@ -1,9 +1,10 @@
 # Preact Signals Demos
 Simple [Preact Signals](https://preactjs.com/guide/v10/signals) Demos in [React](https://reactjs.org/), with [Mantine](https://mantine.dev/), [TypeScript](https://www.typescriptlang.org/), and [Vite](https://vitejs.dev/).
 
+[Try on Replit](https://replit.com/@efeminella/Preact-React-Signals-Demos)
+
 ## Getting Started
-- Simply run `yarn install`
-- Then run `yarn start`
+- Simply run `yarn install`, then `yarn start`
 
 ```
 $ vite
