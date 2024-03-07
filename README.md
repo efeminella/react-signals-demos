@@ -12,8 +12,9 @@ $ vite
   ➜  Network: http://192.168.1.161:5173/
 
 ```
- You can also run the optimized production build as well via `yarn start:prod`
-  
+ You can also run the optimized production build via `yarn start:prod`
+
+## Try it
 <a href="http://code.ericfeminella.com/preview/signals-demo/" target="_blank">
   <img width="579" alt="demo-1" src="/assets/demo-example.png">
 </a>
