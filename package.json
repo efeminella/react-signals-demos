@@ -9,7 +9,7 @@
   "scripts": {
     "start": "vite",
     "start:prod": " yarn clean; yarn build; vite preview",
-    "build": "tsc && vite build",
+    "build": "yarn clean; tsc && vite build",
     "lint": "npx eslint . --fix",
     "clean": "rimraf ./dist",
     "clean:install": "rimraf ./node_modules; yarn"
