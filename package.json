@@ -3,11 +3,16 @@
   "version": "1.0.0",
   "type": "module",
   "description": "Simple Preact Signals Demo w/TypeScript and Mantine",
+  "author": "Eric J. Feminella",
+  "license": "MIT",
+  "main": "src/index.tsx",
   "scripts": {
     "start": "vite",
+    "start:prod": " yarn clean; yarn build; vite preview",
     "build": "tsc && vite build",
-    "preview": "vite preview",
-    "lint": "npx eslint . --fix"
+    "lint": "npx eslint . --fix",
+    "clean": "rimraf ./dist",
+    "clean:install": "rimraf ./node_modules; yarn"
   },
   "dependencies": {
     "@mantine/core": "^7.6.1",
@@ -25,9 +30,7 @@
     "@vitejs/plugin-react": "^2.0.0",
     "eslint": "^8.57.0",
     "eslint-plugin-react": "^7.34.0",
+    "rimraf": "^5.0.5",
     "vite": "^3.0.4"
-  },
-  "main": "index.js",
-  "author": "Eric J. Feminella",
-  "license": "MIT"
+  }
 }
