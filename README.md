@@ -4,7 +4,7 @@ Simple [Preact Signals](https://preactjs.com/guide/v10/signals) Demos in [React]
 [Try on Replit](https://replit.com/@efeminella/Preact-React-Signals-Demos)
 
 ## Getting Started
-- Simply run `yarn install`, then `yarn start`
+Simply run `yarn install`, then `yarn start`
 
 ```
 $ vite
@@ -18,4 +18,3 @@ $ vite
 <a href="http://code.ericfeminella.com/preview/signals-demo/" target="_blank">
   <img width="579" alt="demo-1" src="/assets/demo-example.png">
 </a>
-
